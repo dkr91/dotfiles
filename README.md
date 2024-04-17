@@ -7,6 +7,8 @@ all the tools i use for work including their configs
 ## Basics
 
 * [fzf](https://github.com/junegunn/fzf=)
+* fzf-tmux
+* rga-fzf
 * lazygit
 * lazydocker
 * zoxide
