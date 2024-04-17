@@ -1,0 +1,15 @@
+[plugin]
+prepend_previewers = [
+    { name = "*.csv", run = "bat -m" },
+    { name = "*.md", run = "bat-n" },
+    { name = "*.js", run = "bat -n" },
+    { name = "*.yaml", run = "bat -n" }
+]
+[[manager.prepend_keymap]]
+on   = [ "f","g" ]
+run  = "plugin fg"
+desc = "find file by content"
+[[manager.prepend_keymap]]
+on   = [ "f","f" ]
+run  = "plugin fg --args='fzf'"
+desc = "find file by file name"
