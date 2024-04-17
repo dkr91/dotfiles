@@ -1,5 +1,5 @@
-# my-tools
-all the tools i use for work
+# dotfiles
+all the tools i use for work including their configs
 
 
 # CLI
